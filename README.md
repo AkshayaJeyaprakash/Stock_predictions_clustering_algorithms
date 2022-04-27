@@ -169,7 +169,11 @@ Decision trees involve the greedy selection of the best split point from the dat
 
 
 # REFERENCES
-[For KNN](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
-[For Naive bayes](https://machinelearningmastery.com/naive-bayes-for-machine-learning/)
-[For Decision tree](https://machinelearningmastery.com/random-forest-ensemble-in-python/)
-[For Random forest](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/)
+[For KNN](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)  
+
+[For Naive bayes](https://machinelearningmastery.com/naive-bayes-for-machine-learning/)  
+
+[For Decision tree](https://machinelearningmastery.com/random-forest-ensemble-in-python/)  
+
+[For Random forest](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/)  
+
