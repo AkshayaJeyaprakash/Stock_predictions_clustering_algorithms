@@ -166,3 +166,10 @@ Making predictions with a decision tree involves navigating the tree with the sp
 # Random Forest Algorithm
 
 Decision trees involve the greedy selection of the best split point from the dataset at each step. This algorithm makes decision trees susceptible to high variance if they are not pruned. This high variance can be harnessed and reduced by creating multiple trees with different samples of the training dataset (different views of the problem) and combining their predictions. This approach is called bootstrap aggregation or bagging for short. A limitation of bagging is that the same greedy algorithm is used to create each tree, meaning that it is likely that the same or very similar split points will be chosen in each tree making the different trees very similar (trees will be correlated). This, in turn, makes their predictions similar, mitigating the variance originally sought. We can force the decision trees to be different by limiting the features (rows) that the greedy algorithm can evaluate at each split point when creating the tree. This is called the Random Forest algorithm. Like bagging, multiple samples of the training dataset are taken and a different tree trained on each. The difference is that at each point a split is made in the data and added to the tree, only a fixed subset of attributes can be considered.
+
+
+# REFERENCES
+[For KNN](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
+[For Naive bayes](https://machinelearningmastery.com/naive-bayes-for-machine-learning/)
+[For Decision tree](https://machinelearningmastery.com/random-forest-ensemble-in-python/)
+[For Random forest](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/)
